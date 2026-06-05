@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-DATA_PATH = r"c:\Users\Pc\Downloads\fetal_health.csv"
+DATA_PATH = "fetal_health.csv"
 HEALTH_LABELS = {1: "Normal", 2: "Suspect", 3: "Pathological"}
 FEATURE_DEFAULT_RANGES = {
     "baseline_value": (80.0, 160.0),
